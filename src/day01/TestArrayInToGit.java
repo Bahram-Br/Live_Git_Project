@@ -13,6 +13,7 @@ public class TestArrayInToGit {
         for(int i = 0; i < list.size(); i++){
             if (list.get(i) % 2 == 0){
                 list.set(i, list.get(i) + 10);
+                System.out.println("Hello Bahram you did a great job");
             }
         }
         System.out.println(list);
